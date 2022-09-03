@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import Adsense from './Adsense'
 import './App.css'
 
 function App() {
@@ -50,6 +51,8 @@ function App() {
     }
   }
   return (
+    <>
+    <Adsense slot="2904285072" timeout={1000} classNames="page-top" />
     <div className='App'>
       <div className="container">
         <div className="head">
@@ -84,6 +87,8 @@ function App() {
         </div>
       </div>
     </div>
+    <Adsense slot="2904285072" timeout={1000} classNames="page-bottom" />
+    </>
   )
 }
 
